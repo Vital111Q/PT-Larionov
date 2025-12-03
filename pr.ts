@@ -52,7 +52,6 @@ logFirstAvailable();
 
 // 5 Робота з Enum і фільтрацією
 
-
 function getWorkersSurnamesByCategory(category: Category = Category.Designer): Array<string> {
     const workers = getAllWorkers(); 
 
@@ -110,7 +109,7 @@ console.log(`Згенеровано за допомогою стрілочної
 idGenerator = createCustomerID;
 console.log(`Згенеровано через присвоєну функцію: ${idGenerator("Vitalii", 30)}`);
 
-// 8️ Необов'язкові та залишкові параметри
+// 8 Необов'язкові та залишкові параметри
 
 
 function createCustomer(name: string, age?: number, city?: string): void {
